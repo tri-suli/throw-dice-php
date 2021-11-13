@@ -1,0 +1,34 @@
+{
+    "name": "tris/dice-game",
+    "description": "Dice roll game that accepts input N number of players and M number of dice",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tris\\DiceGame\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tris\\DiceGame\\Test\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tri Suli Prasetyo",
+            "email": "trisulipras@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.3|^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0",
+        "mockery/mockery": "dev-master"
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}
